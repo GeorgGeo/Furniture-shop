@@ -1,0 +1,135 @@
+// #region footer
+.footer__info {
+    min-width: 831px;
+    height: 520px;
+    background-color: var(--color-black);
+    margin-left: -51px !important;
+    // margin-right: -51px !important;
+    position: relative;
+    .footer__info-short {
+        .logo-text {
+            padding: 50px 0 50px 51px;
+            svg {
+                .white-path {
+                    fill: #fff;
+                }
+            }
+            & span {
+                padding-left: 15px;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 125%;
+                color: var(--color-white);
+                &::first-letter {
+                    color: var(--color-green);
+                }
+            }
+        }
+        .footer__info-description {
+            .footer__info-goods {
+                .list-goods {
+                    padding-left: 51px;
+                    color: var(--color-white);
+                    text-transform: uppercase;
+                    & > li > a > span {
+                        color: var(--color-green);
+                    }
+                    .list-goods--li + .list-goods--li {
+                        padding-top: 15px;
+                    }
+                }
+            }
+            .footer__info-menu {
+                .list-goods {
+                    padding-left: 55px;
+                    color: var(--color-white);
+                    text-transform: uppercase;
+                    & > li > a > span {
+                        color: var(--color-green);
+                    }
+                    .list-goods--li + .list-goods--li {
+                        padding-top: 15px;
+                    }
+                }
+            }
+            .footer__info-test {
+                padding-left: 87px;
+                .location, .schedule {
+                    padding-bottom: 15px;
+                    & > span {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 125%;
+                        color: var(--color-white);
+                        text-transform: uppercase;
+                        padding-left: 5px;
+                    }
+                }
+                .phones {
+                    color: var(--color-green);
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 125%; /* 22.5px */
+                    text-transform: uppercase;
+                    padding-bottom: 30px;
+                    .phone-list {
+                        padding-left: 5px;
+                        &__1 {
+                            padding-bottom: 5px;
+                        }
+                    }
+                }
+                .social {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 125%; /* 22.5px */
+                    color: var(--color-white);
+                    &__text {
+                        padding-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .footer__info-data {
+        position: absolute;
+        bottom: 15px;
+        left: 51px;
+        &-copy > p {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%; /* 16.8px */
+            color: var(--color-white);
+        }
+    }
+    .footer__info-data-shop {
+        padding-left: 208px;
+    }
+    .footer__info-data-text {
+        font-family: Cuprum;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        color: var(--color-white);
+        padding-left: 3px;
+    }
+    .footer__info-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+.footer .footer__info-description {
+    padding-left: 102px;
+}
+.footer__info .footer__info-short .logo-text {
+    padding-left: 51px !important;
+}
+// #endregion

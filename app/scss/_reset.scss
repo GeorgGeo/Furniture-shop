@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Proxima Nova', 'sans-serif';
+    font-weight: 700;
+    color: #1E2E36;
+    // при добавлении анимации, чтобы при выезжание анимации - НЕ ПОЯВЛЯЛСЯ НА КОРОТКОЕ ВРЕМЯ горизонтальный скролл
+    min-width: 320px;
+    overflow-x: hidden;
+    background-color: var(--color-white);
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    color: inherit;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+svg path {
+    stroke:inherit;
+    stroke-width:inherit;
+    fill:inherit;
+}

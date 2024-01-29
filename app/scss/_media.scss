@@ -1,0 +1,964 @@
+@media (max-width: 1920px) {
+// #region main
+    .preference-option__furniture, .preference-option__safe, .preference-option__delivery {
+        max-width: 486px !important;
+    }
+// #endregion
+}
+// #region max-width: 1600px
+@media (max-width: 1600px) {
+    .header__preview .logo-text {
+        margin-right: revert;
+        padding-left: 5px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini {
+        height: 578px;
+    }
+    // #region main
+    .preference-option__furniture, .preference-option__safe, .preference-option__delivery {
+        max-width: 406px !important;
+    }
+    // about-us
+    .about-us__img>img {
+        width: 100%;
+    }
+    .about-us .about-us__content .about-us__content-text {
+        max-width: 700px;
+        height: 475px;
+        padding: 40px 30px 40px 51px;
+    }
+    // footer
+    //container parent img
+    .footer__info {
+        min-width: 750px;
+    }
+    .footer__img {
+        height: 520px;
+    }
+    .footer__img>img {
+        max-width: 100%;
+        height: 100%;
+    }
+    // #endregion
+}
+// #endregion
+@media (max-width: 1502px) {
+    .header__preview .application button {
+        margin-left: 5px;
+    }
+    .btn {
+        padding: 14px 15px;
+    }
+    .about-us .about-us__content .about-us__content-text {
+        max-width: 590px;
+        height: 475px;
+        padding: 30px;
+    }
+    .about-us .about-us__content .about-us__content-text--description {
+        font-size: 16px;
+        line-height: 145%;
+    }
+}
+// #region max-width: 1440px
+@media (max-width: 1440px) {
+    // #region Header
+    .header__preview .wrap-selectric+.wrap-selectric {
+        margin-left: 5px;
+    }
+    .header__preview .logo-text span {
+        padding-left: 5px;
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    .logo-text {
+        svg {
+            width: 100px;
+            height: 60px;
+        }
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini {
+        height: 474px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini .new {
+        padding: 20px 0 20px 0;
+    }
+    // #endregion
+}
+// #end region
+// #region max-width: 1366px
+@media (max-width: 1366px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo-text svg {
+        width: 75px;
+        height: 50px;
+    }
+    .application svg {
+        margin-left: 5px;
+    }
+    .icon-social {
+        padding-right: 5px;
+    }
+    .menu>ul>li:not(:first-child) {
+        padding-left: 5px;
+    }
+    .select-styled:after {
+        right: -20px;
+    }
+    .btn {
+        padding: 5px;
+    }
+    //about-us
+    .about-us .about-us__content .about-us__content-text {
+        max-width: 590px;
+        height: 475px;
+        padding: 40px 30px 40px 51px;
+    }
+    //footer
+    .footer__info {
+        min-width: 640px;
+        margin-left: 0 !important;
+    }
+    .footer__info .footer__info-short .footer__info-description .footer__info-menu .list-goods {
+        padding-left: 10px;
+    }
+    .footer__info .footer__info-short .footer__info-description .footer__info-test {
+        padding-left: 5px;
+    }
+}
+// #end region
+@media (max-width: 1300px) {
+.delivery, .furniture, .safe {
+ height: 300px;
+}
+.preference .preference-option .preference-option__delivery .furniture-delivery, .preference .preference-option .preference-option__furniture .furniture-description, .preference .preference-option .preference-option__safe .furniture-safe {
+    left: 70px;
+    font-size: 32px;
+}
+.preference .preference-option .preference-option__delivery .furniture-delivery {
+    & > span {
+        font-size: 32px;
+    }
+}
+.preference .preference-option .preference-option__furniture .furniture-description__all, .preference .preference-option .preference-option__safe .furniture-safe__all {
+    left: 60px;
+    max-width: 285px;
+}
+.preference .preference-option .preference-option__delivery .furniture-delivery__all, .preference .preference-option .preference-option__furniture .furniture-description__all, .preference .preference-option .preference-option__safe .furniture-safe__all {
+    left: 70px;
+}
+.preference .preference-option .preference-option__delivery .furniture-delivery {
+    & span:not(:last-child) {
+        display: block;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                height: 3px;
+                background-color: #44c697;
+            }
+    }
+}
+.preference .preference-option .preference-option__furniture .furniture-description {
+    & span:not(:last-child, :first-child) {
+        display: block;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 65%;
+                width: 100%;
+                height: 3px;
+                background-color: #44c697;
+            }
+    }   
+}
+.preference .preference-option .preference-option__furniture .furniture-description {
+    & span:nth-child(1) {
+        display: block;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 33%;
+                width: 100%;
+                height: 3px;
+                background-color: #44c697;
+            }
+    }   
+}
+// categories
+.sofa__img {
+    width: 570px;
+}
+.categories .rectangle-1, .categories .rectangle-2, .categories .rectangle-3, .categories .rectangle-4, .categories .rectangle-5, .categories .rectangle-6 {
+    width: 100%;
+}
+}
+// #region max-width: 1199px
+@media (max-width: 1199px) {
+// #region Header
+    * {
+        font-size: 14px;
+    }
+    .container {
+        max-width: 1199px;
+    }
+    .header__preview .selectric .label {
+        font-size: 16px;
+    }
+    .icon-social {
+        padding: 0;
+        & .facebook {
+            margin: 0;
+        }
+    }
+    .select {
+        width: 105px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .select-styled {
+        font-size: 16px;
+    }
+    .select-options li {
+        text-indent: 2px;
+    }
+    .menu>ul>li:not(:first-child) {
+        padding-left: 2px;
+    }
+    .header__preview .wrap-sofa {
+        min-width: 89px;
+    }
+    .header__preview .wrap-bed {
+            width: 72px;
+    }
+    .header__preview .wrap-armchair {
+            min-width: 79px;
+    }
+    .header__preview .wrap-dressers {
+            min-width: 93px;
+    }
+    .header__preview .wrap-closet {
+            min-width: 71px;
+    }
+    .header__preview .wrap-kitchen {
+            min-width: 74px;
+    }
+    .header__preview .logo-text span {
+        font-size: 1.2rem;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini {
+        height: 390px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini p {
+        padding-bottom: 15px;
+    }
+    .header__preview .header__slider-wrapper .slider-arrows {
+        bottom: 50px;
+    }
+// #endregion
+// #region Main
+// preference
+.preference-option__furniture, .preference-option__safe, .preference-option__delivery {
+     max-width: 390px !important;
+}
+.delivery, .furniture, .safe {
+ height: 300px;
+}
+.preference .preference-option .preference-option__delivery .furniture-delivery, .preference .preference-option .preference-option__furniture .furniture-description, .preference .preference-option .preference-option__safe .furniture-safe {
+    position: absolute;
+    left: 70px;
+    bottom: 33px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    color: var(--color-white);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.preference .preference-option .preference-option__furniture .furniture-description, .preference .preference-option .preference-option__safe .furniture-safe {
+    left: 30px;
+}
+.preference .preference-option .preference-option__furniture .furniture-description__all, .preference .preference-option .preference-option__safe .furniture-safe__all {
+    left: 30px;
+    max-width: 300px;
+}
+.preference .preference-option .preference-option__delivery .furniture-delivery__all {
+    max-width: 300px;
+}
+.preference .preference-option .preference-option__delivery .furniture-delivery {
+    & span:not(:last-child) {
+        display: block;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                height: 3px;
+                background-color: #44c697;
+            }
+    }
+}
+.preference .preference-option .preference-option__furniture .furniture-description {
+    & span:not(:last-child, :first-child) {
+        display: block;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 65%;
+                width: 100%;
+                height: 3px;
+                background-color: #44c697;
+            }
+    }   
+}
+.preference .preference-option .preference-option__furniture .furniture-description {
+    & span:nth-child(1) {
+        display: block;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 33%;
+                width: 100%;
+                height: 3px;
+                background-color: #44c697;
+            }
+    }   
+}
+// categories
+.sofa__img {
+    width: 560px;
+}
+// about-us
+.about-us .about-us__content .about-us__content-text {
+    max-width: 560px;
+    height: 475px;
+    padding: 5px 30px 5px 51px;
+}
+//footer 
+.footer__info {
+    min-width: 590px;
+}
+// #endregion
+}
+// #endregion
+@media (max-width: 1170px) {
+    .sofa__img {
+        width: 520px;
+    }
+}
+@media (max-width: 1090px) {
+    .sofa__img {
+        width: 490px;
+    }
+    //footer
+    .footer__info {
+        min-width: 550px;
+    }
+}
+@media (max-width: 1035px) {
+    .sofa__img {
+        width: 470px;
+    }
+}
+@media (max-width: 1140px) {
+.preference .preference-option .preference-option__furniture .furniture-description, .preference .preference-option .preference-option__safe .furniture-safe {
+    left: 25%;
+}
+.preference .preference-option .preference-option__delivery .furniture-delivery, .preference .preference-option .preference-option__furniture .furniture-description, .preference .preference-option .preference-option__safe .furniture-safe {
+    left: 25%;
+}
+.preference .preference-option .preference-option__furniture .furniture-description__all, .preference .preference-option .preference-option__safe .furniture-safe__all {
+    left: 15%;
+    max-width: 300px;
+}
+// about us
+.about-us .about-us__content .about-us__content-text {
+    max-width: 500px;
+    height: 405px;
+    padding: 5px 5px 5px 51px;
+}
+.about-us .about-us__content .about-us__content-text--description {
+    font-size: 16px;
+    line-height: 125%;
+}
+}
+// #region max-width: 991px
+@media (max-width: 991px) {
+// #region Header
+.header__top-aside {
+    * {
+        font-size: 12px;
+        svg {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    & > span {
+        display: inline-block;
+        max-width: 107px;
+    }
+    .smartphone {
+        width: 30px;
+        height: 30px;
+    }
+}
+.phone {
+    display: flex;
+    align-items: center;
+}
+.menu-list > li > a {
+    font-size: 12px;
+}
+.select {
+    width: 92px;
+    font-size: 12px;
+}
+.select-styled:after {
+    top: 0;
+    right: -15px;
+}
+.header__preview .selectric .label {
+    font-size: 12px;
+}
+.header__preview .wrap-sofa {
+    min-width: 69px;
+}
+.header__preview .wrap-bed {
+    width: 58px;
+}
+.header__preview .wrap-armchair {
+    min-width: 62px;
+}
+.header__preview .wrap-dressers {
+    min-width: 73px;
+}
+.header__preview .wrap-closet {
+    min-width: 56px;
+}
+.header__preview .wrap-kitchen {
+    min-width: 58px;
+}
+.header__preview .selectric .button {
+    top: -1px;
+    right: -1px;
+}
+.logo-text svg {
+    width: 50px;
+    height: 35px;
+}
+.header__preview .logo-text span {
+    font-size: 1rem;
+}
+.application {
+    & > span {
+        font-size: 12px;
+    }
+}
+.btn {
+    font-size: 12px;
+    padding: 2px;
+}
+.header__preview .header__slider-wrapper {
+    width: 390px;
+}
+.header__preview .header__slider-wrapper .header__slider--mini .new {
+    padding: 10px 0 10px 0;
+    font-size: 36px;
+}
+.header__preview .header__slider-wrapper .header__slider--mini .name {
+    font-size: 24px;
+}
+.header__preview .header__slider-wrapper .header__slider--mini p {
+    font-size: 24px;
+    max-width: 275px;
+    padding-bottom: 10px;
+}
+.header__preview .header__slider-wrapper .header__slider--mini {
+    height: 330px;
+}
+.header__preview .header__slider-wrapper .slider-arrows {
+    bottom: 20px;
+}
+// #endregion
+// #region Main
+// categories
+.sofa {
+    justify-content: center !important;
+}
+.sofa__img {
+    width: 586px;
+}
+// about us
+.about-us .about-us__content .about-us__content-text {
+    max-width: 400px;
+    height: 300px;
+    padding: 5px 5px 5px 51px;
+}
+.about-us .about-us__content .about-us__content-text--description {
+    font-size: 13px;
+    line-height: 100%;
+}
+//footer
+.footer {
+    .container-footer {
+        flex-wrap: wrap;
+    }
+    .footer__info {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .footer__info .footer__info-short .logo-text {
+        justify-content: center;
+    }
+    .footer__info-description {
+        justify-content: center;
+    }
+    .footer__info .footer__info-short .footer__info-description .footer__info-goods .list-goods {
+        padding-left: 10px;
+    }
+}
+// #endregion
+}
+// #endregion
+// #region max-width: 767px
+@media (max-width: 767px) {
+// #region Header
+    .header__top-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu>ul>li:not(:first-child) {
+        padding-left: 5px;
+    }
+    .header__preview .header__preview-furniture {
+        flex-direction: column-reverse;
+    }
+    .header__preview .logo-text {
+        padding: 10px 0;
+    }
+    .header__preview .header__slider-wrapper {
+        width: 220px;
+    }
+    .header__preview .header__slider-wrapper .slider-arrows {
+        bottom: 10px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini {
+        height: 230px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini .new {
+        padding: 5px 0 5px 0;
+        font-size: 24px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini .name {
+        font-size: 18px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini p {
+        max-width: 180px;
+        font-size: 18px;
+    }
+// #endregion
+// #region Main
+// categories
+.categories .goods a>span {
+    font-size: 18px;
+}
+.categories .goods-tabs .hover {
+    width: 80px;
+}
+// about us
+.about-us .about-us__content .about-us__content-text {
+    max-width: 265px;
+    height: 190px;
+    padding: 5px 5px 5px 51px;
+}
+.about-us .about-us__content .about-us__content-text::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 10px;
+    height: inherit;
+    background-color: var(--color-green);
+}
+.about-us .about-us__content .about-us__content-text--description>span {
+    position: relative;
+    font-family: "Proxima Nova";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-green);
+    line-height: 100%;
+}
+.about-us .about-us__content .about-us__content-text--description {
+    font-size: 8px;
+    line-height: 95%;
+}
+// #endregion
+}
+// #endregion
+@media (max-width: 586px) {
+// #region Main
+// categories
+.sofa__img {
+    width: 480px;
+}
+.categories .rectangle-1, .categories .rectangle-2, .categories .rectangle-3, .categories .rectangle-4, .categories .rectangle-5, .categories .rectangle-6 {
+    width: 480px;
+}
+//footer
+.footer__info {
+    min-width: 520px;
+}
+// #endregion  
+}
+@media (max-width: 550px) {
+    .header__preview .header__slider-wrapper .header__slider--mini {
+        height: 200px;
+    }
+// categories
+.categories .goods-tabs .hover {
+        width: 70px;
+        height: 70px;
+    }
+}
+// ask
+.ask .width-size4 {
+    max-width: 300px;
+}
+.ask .form-example {
+    min-width: 401px;
+    width: 420px;
+    height: 457px;
+    position: absolute;
+    top: 100px;
+    right: -15px;
+    background-color: var(--color-white);
+}
+.ask .form-example .form-example__name input, .ask .form-example .form-example__phone input {
+    min-width: 370px;
+    padding: 14px 0 14px 15px;
+    border-radius: 3px;
+    border: 1px solid var(--color-black);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.ask .form-example .btn-form {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    min-width: 370px;
+}
+//footer
+.footer .footer__info-description {
+    margin-left: -51px;
+}
+.footer__info .footer__info-short .logo-text {
+    padding: 50px 0;
+}
+.footer .footer__info .footer__info-short .footer__info-description .footer__info-goods .list-goods {
+    padding-left: 0;
+}
+.footer__info .footer__info-short .footer__info-description .footer__info-menu .list-goods {
+    padding-left: 0;
+}
+.footer__info .footer__info-short .footer__info-description .footer__info-test {
+    padding-left: 0px;
+}
+//
+@media (max-width: 487px) {
+    .footer__info-goods, .footer__info-menu {
+        display: none;
+    }
+}
+// #region max-width: 479px do 320px
+@media (max-width: 479px) {
+// #region Header
+    .menu-list>li>a {
+        font-size: 10px;
+    }
+    .header__preview .wrap-selectric+.wrap-selectric {
+        margin-left: 0px;
+    }
+    .header__preview .selectric .button {
+        width: 15px;
+        height: 15px;
+        top: 0;
+        right: -1px;
+        background-color: var(--color-white);
+    }
+    .header__preview .selectric .label {
+        font-size: 10px;
+    }
+    .header__preview .wrap-sofa {
+        min-width: 57px;
+    }
+    .header__preview .wrap-bed {
+        width: 48px;
+    }
+    .header__preview .wrap-armchair {
+        min-width: 51px;
+    }
+    .header__preview .wrap-dressers {
+        min-width: 60px;
+    }
+    .header__preview .wrap-closet {
+        min-width: 47px;
+    }
+    .header__preview .wrap-kitchen {
+        min-width: 50px;
+    }
+    .header__preview .selectric-items li {
+        /* padding: 5px; */
+        font-size: 12px;
+    }
+// #endregion
+// #region Main
+// preference
+.preference .preference-option .preference-option__delivery .furniture-delivery__all {
+    left: 13%;
+}
+.preference .preference-option .preference-option__furniture .furniture-description__all, .preference .preference-option .preference-option__safe .furniture-safe__all {
+    left: 13%;
+}
+// categories
+.categories .goods a>span {
+    font-size: 11px;
+}
+.categories .goods-tabs .hover {
+    width: 40px;
+    height: 50px;
+}
+.sofa__img {
+    width: 390px;
+}
+.categories .rectangle-1, .categories .rectangle-2, .categories .rectangle-3, .categories .rectangle-4, .categories .rectangle-5, .categories .rectangle-6 {
+    width: 390px;
+}
+.categories .sofa__price--name, .categories .sofa__price--price {
+    font-size: 18px;
+}
+// about us
+.about-us .about-us__content .about-us__content-text {
+    max-width: 215px;
+    height: 130px;
+    padding: 5px 0 5px 40px;
+}
+.about-us .about-us__content .about-us__content-text::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 5px;
+    height: inherit;
+    background-color: var(--color-green);
+}
+.about-us .about-us__content .about-us__content-text>p:not(:first-child):not(:last-child) {
+    padding: 5px 0;
+}
+.about-us .about-us__content .about-us__content-text--description {
+    font-size: 7px;
+    line-height: 100%;
+}
+.about-us .about-us__content .about-us__content-text>p:last-child {
+    display: none;
+}
+.global-title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.preference .width-size {
+    max-width: 190px;
+}
+.categories .width-size2 {
+    max-width: 218px;
+}
+.about-us .width-size3 {
+    max-width: 101px;
+}
+.width-size:before, .width-size3:before, .width-size4:before, .media-size:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 10px;
+    height: 28px;
+    background: var(--color-green);
+    z-index: -9;
+}
+// ask
+.ask .form-example .form-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.ask .form-example {
+    min-width: 310px;
+    width: 310px;
+    height: 457px;
+    position: absolute;
+    top: 100px;
+    right: -15px;
+    background-color: var(--color-white);
+}
+.ask .form-example .form-example__name input, .ask .form-example .form-example__phone input {
+    min-width: 230px;
+    padding: 14px 0 14px 15px;
+    border-radius: 3px;
+    border: 1px solid var(--color-black);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.ask .has-success .form-control:valid, .ask .has-error .form-control:invalid {
+    padding-right: 0;
+}
+.ask .form-example .btn-form {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    min-width: 230px;
+}
+//footer
+.footer__info-goods, .footer__info-menu {
+    display: none;
+}
+.footer__info .footer__info-data-shop {
+    padding-left: 20px;
+}
+.footer__info {
+    min-width: 290px;
+}
+.footer__img {
+    height: 200px;
+}
+// #endregion
+}
+// #end region
+@media (max-width: 440px) {
+    .header__preview .header__slider-wrapper {
+        width: 190px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini {
+        height: 185px;
+    }
+}
+@media (max-width: 420px) {
+    // .global-title:before {
+    // content: "";
+    // position: absolute;
+    // top: 5px;
+    // left: 20%;
+    // width: 20px;
+    // height: 50px;
+    // background: var(--color-green);
+    // z-index: -9;
+    // }
+}
+@media (max-width: 400px) {
+    .header__preview .header__slider-wrapper .header__slider--mini {
+        height: 155px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini .new {
+        font-size: 18px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini .name {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .header__preview .header__slider-wrapper .header__slider--mini p {
+        max-width: 170px;
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    .header__preview .header__slider-wrapper .slider-arrows__left, .header__preview .header__slider-wrapper .slider-arrows__right {
+        width: 20px;
+        height: 20px;
+    }
+    // categories
+    .sofa__img {
+    width: 320px;
+    }
+    .categories .rectangle-1, .categories .rectangle-2, .categories .rectangle-3, .categories .rectangle-4, .categories .rectangle-5, .categories .rectangle-6 {
+        width: 320px;
+    }
+}
+@media (max-width: 380px) {
+    // .global-title:before {
+    // content: "";
+    //     position: absolute;
+    //     top: 5px;
+    //     left: 0;
+    //     width: 20px;
+    //     height: 50px;
+    //     background: var(--color-green);
+    //     z-index: -9;
+    // }
+    // .media-size:before {
+    // content: "";
+    //     position: absolute;
+    //     top: 5px;
+    //     left: 15%;
+    //     width: 20px;
+    //     height: 50px;
+    //     background: var(--color-green);
+    //     z-index: -9;
+    // }
+}
+@media (max-width: 370px) {
+    // .global-title:before {
+    //     content: "";
+    //     position: absolute;
+    //     top: 5px;
+    //     left: 30%;
+    //     width: 20px;
+    //     height: 50px;
+    //     background: var(--color-green);
+    //     z-index: -9;
+    // }
+    // .media-size:before {
+    //     content: "";
+    //     position: absolute;
+    //     top: 5px;
+    //     left: 18%;
+    //     width: 20px;
+    //     height: 50px;
+    //     background: var(--color-green);
+    //     z-index: -9;
+    // }
+}
+@media (max-width: 360px) {
+    .ask .form-example {
+        min-width: 280px;
+        width: 280px;
+        height: 457px;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+        background-color: var(--color-white);
+    }
+}

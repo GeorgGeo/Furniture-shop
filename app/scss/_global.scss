@@ -1,0 +1,82 @@
+.btn {
+    background-color: #44C697;
+    border-radius: 3px;
+    border: none;
+    color: var(--color-white);
+    padding: 14px 46px;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 22.5px */
+    text-transform: uppercase;
+    &:hover {
+        background-color: #159365;
+        box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+        transition: all 0.5s ease 0.2s;
+    }
+}
+.global-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 20px;
+        height: 50px;
+        background: var(--color-green);
+        z-index: -9;
+    }
+}
+.green-path {
+    fill: #44C697;
+}
+.black-path {
+    fill: #1E2E36;
+}
+// Back to top button
+.button-up {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+#button {
+    display: inline-block;
+    background-color: var(--color-green);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 36px;
+    transition: background-color 0.3s ease-in-out, opacity 0.5s ease-in, visibility 0.5s ease-in;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+}
+#button::after {
+    font-size: 1em;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f062";
+    color: var(--color-white);
+}
+#button:hover {
+    cursor: pointer;
+    background-color: #FF9800;
+}
+#button:active {
+    background-color: #555;
+}
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
